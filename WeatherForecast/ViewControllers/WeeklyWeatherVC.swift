@@ -19,6 +19,8 @@ class WeeklyWeatherVC: UIViewController {
     @IBOutlet weak var weeklyWeatherCollectionView: UICollectionView!
 }
 
+//MARK:- Life Cycle
+
 extension WeeklyWeatherVC {
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,6 +36,8 @@ extension WeeklyWeatherVC {
         // Dispose of any resources that can be recreated.
     }
 }
+
+//MARK:- Custom Methods
 
 extension WeeklyWeatherVC {
     
@@ -64,6 +68,8 @@ extension WeeklyWeatherVC {
         weeklyWeatherCollectionView.reloadData()
     }
 }
+
+//MARK:- CollectionView Data Source and Delegates
 
 extension WeeklyWeatherVC: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     

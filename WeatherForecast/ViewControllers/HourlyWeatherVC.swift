@@ -9,11 +9,12 @@
 import UIKit
 
 class HourlyWeatherVC: UIViewController {
-
+    
     //Properties
     let manager = WeatherDataManager()
     var hourlyData = [HourlyWeatherData]()
     
+    //Outlets
     @IBOutlet weak var hourlyWeatherTable: UITableView!
 }
 
@@ -34,6 +35,8 @@ extension HourlyWeatherVC {
         // Dispose of any resources that can be recreated.
     }
 }
+
+//MARK:- Custom Methods
 
 extension HourlyWeatherVC {
     
