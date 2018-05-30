@@ -1,0 +1,8 @@
+{
+        "dailyWeatherData": {
+            "currentTemperature": 25,
+            "highestTemperature": 32,
+            "lowestTemperature": 21,
+            "currentWeather": "Rainy"
+        }
+}
